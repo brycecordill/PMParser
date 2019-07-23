@@ -46,6 +46,7 @@ parser *argHandler::tryPM(char *pm) {
 
 argHandler::~argHandler() {
     if (inFile != NULL) {
+        inFile->close();
         delete inFile;
     }
 }
