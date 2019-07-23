@@ -2,10 +2,10 @@
 #define PARSER_H
 
 /* To implement later */
-class parser {
+class Parser {
 
     public:
-        parser();
+        Parser();
 };
 
 #endif

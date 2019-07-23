@@ -1,17 +1,17 @@
-#include "argHandler.h"
+#include "ArgHandler.h"
 
-argHandler::argHandler() {
+ArgHandler::ArgHandler() {
     inFile = NULL;
 }
 
-void argHandler::printUsage() {
+void ArgHandler::printUsage() {
     std::cout << "Usage: pmparser [PACKAGE_MANAGER] [FILE]\n\n";
     std::cout << "Valid package managers: apt, dnf, pacman\n";
     exit(EXIT_FAILURE);
 }
 
-parser *argHandler::handle(int argc, char **argv) {
-    parser *p = NULL;
+Parser *ArgHandler::handle(int argc, char **argv) {
+    Parser *p = NULL;
 
     if (argc != NUM_ARGS) {
         printUsage();
@@ -29,22 +29,22 @@ parser *argHandler::handle(int argc, char **argv) {
 }
 
 // TODO Implement with correct subtypes
-parser *argHandler::tryPM(char *pm) {
+Parser *ArgHandler::tryPM(char *pm) {
     if (strcmp(pm, "dnf") == 0 || strcmp(pm, "yum") == 0) {
-        return new parser();
+        return new Parser();
     }
     else if(strcmp(pm, "apt") == 0 || strcmp(pm, "apt-get") == 0) {
-        return new parser();
+        return new Parser();
     }
     else if (strcmp(pm, "pacman") == 0) {
-        return new parser();
+        return new Parser();
     }
     std::cout << "Here\n";
     printUsage();
     return NULL;
 }
 
-argHandler::~argHandler() {
+ArgHandler::~ArgHandler() {
     if (inFile != NULL) {
         inFile->close();
         delete inFile;

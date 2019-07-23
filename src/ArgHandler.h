@@ -4,23 +4,23 @@
 #include <iostream>
 #include <fstream>
 #include <string.h>
-#include "parser.h"
+#include "Parser.h"
 
 #define NUM_ARGS 3
 #define PM_INDEX 1
 #define FILE_INDEX 2
 
-class argHandler{
+class ArgHandler{
     private:
         std::fstream *inFile;
         
         void printUsage();
-        parser *tryPM(char *pm);
+        Parser *tryPM(char *pm);
     public:
-        argHandler();
-        parser *handle(int argc, char **argv);
+        ArgHandler();
+        Parser *handle(int argc, char **argv);
         std::fstream *getInFile() {return inFile;};
-        ~argHandler();
+        ~ArgHandler();
 };
 
 #endif
