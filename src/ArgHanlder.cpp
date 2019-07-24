@@ -39,7 +39,7 @@ Parser *ArgHandler::tryPM(char *pm) {
     else if (strcmp(pm, "pacman") == 0) {
         return new Parser();
     }
-    std::cout << "Here\n";
+
     printUsage();
     return NULL;
 }
