@@ -2,7 +2,6 @@
 #define ARGHANDLER_H
 
 #include <iostream>
-#include <fstream>
 #include <string.h>
 #include "Parser.h"
 
@@ -12,15 +11,10 @@
 
 class ArgHandler{
     private:
-        std::fstream *inFile;
-        
         void printUsage();
         Parser *tryPM(char *pm);
     public:
-        ArgHandler();
         Parser *handle(int argc, char **argv);
-        std::fstream *getInFile() {return inFile;};
-        ~ArgHandler();
 };
 
 #endif
