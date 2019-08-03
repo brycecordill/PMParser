@@ -23,7 +23,10 @@ Parser *ArgHandler::tryPM(char *pm) {
     if (strcmp(pm, "dnf") == 0 || strcmp(pm, "yum") == 0) {
         return new DNFParser;
     }
+    else if (strcmp(pm, "apt") == 0 || strcmp(pm, "apt-get") == 0) {
+        return new APTParser;
+    }
 
     printUsage();
-    return NULL;
+    return NULL;  // Makes the compiler happy
 }
