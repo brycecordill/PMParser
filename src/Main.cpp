@@ -9,6 +9,9 @@ int main(int argc, char **argv) {
 
     parser = aH.handle(argc, argv);
     filename = argv[FILE_INDEX];
+    parser->setFilename(filename);
+
+    parser->parseAndWrite();
 
     delete parser;
     

@@ -10,9 +10,8 @@ FileHandler::FileHandler(char *fname) {
         exit(EXIT_FAILURE);
     }
 
-    char *outName = new char[strlen(fname) + strlen(EXT) + 1];
-    strcpy(outName, fname);
-    strcat(outName, EXT);
+    std::string outName(fname);
+    outName.append(EXT);
     
     output = new std::fstream(outName, std::ios::out);
 
@@ -21,17 +20,15 @@ FileHandler::FileHandler(char *fname) {
         output = NULL;
         exit(EXIT_FAILURE);
     }
-
-    delete outName;
 }
 
 FileHandler::~FileHandler() {
-    if (input != NULL) {
+    if (input->is_open()) {
         input->close();
         delete input;
     }
 
-    if (output != NULL) {
+    if (output->is_open()) {
         output->close();
         delete output;
     }

@@ -1,0 +1,177 @@
+Last metadata expiration check: 0:00:08 ago on Thu 01 Aug 2019 04:25:40 PM PDT.
+Dependencies resolved.
+===================================================================================================
+ Package                           Arch   Version                             Repository      Size
+===================================================================================================
+Installing:
+ plasma-desktop                    x86_64 5.15.5-1.fc30                       updates        5.6 M
+Installing dependencies:
+ libgit2                           x86_64 0.27.8-1.module_f30+2959+693db98d   fedora-modular 412 k
+ breeze-cursor-theme               noarch 5.15.5-1.fc30                       updates        343 k
+ breeze-icon-theme                 noarch 5.59.0-1.fc30                       updates        5.7 M
+ cmake-filesystem                  x86_64 3.14.5-1.fc30                       updates         16 k
+ dbus-x11                          x86_64 1:1.12.16-1.fc30                    updates         28 k
+ http-parser                       x86_64 2.9.2-1.fc30                        updates         36 k
+ kactivitymanagerd                 x86_64 5.15.5-1.fc30                       updates        207 k
+ kde-cli-tools                     x86_64 5.15.5-1.fc30                       updates        937 k
+ kde-settings                      noarch 30.2-1.fc30                         updates         32 k
+ kde-settings-plasma               noarch 30.2-1.fc30                         updates         11 k
+ kdecoration                       x86_64 5.15.5-1.fc30                       updates         75 k
+ kdesu                             x86_64 1:5.15.5-1.fc30                     updates        208 k
+ kf5-attica                        x86_64 5.59.0-1.fc30                       updates        188 k
+ kf5-baloo                         x86_64 5.59.0-1.fc30                       updates        214 k
+ kf5-baloo-libs                    x86_64 5.59.0-1.fc30                       updates        231 k
+ kf5-bluez-qt                      x86_64 5.59.0-1.fc30                       updates        203 k
+ kf5-filesystem                    x86_64 5.59.0-1.fc30                       updates         11 k
+ kf5-frameworkintegration          x86_64 5.59.0-2.fc30                       updates        1.6 M
+ kf5-frameworkintegration-libs     x86_64 5.59.0-2.fc30                       updates         29 k
+ kf5-kactivities                   x86_64 5.59.0-1.fc30                       updates        135 k
+ kf5-kactivities-stats             x86_64 5.59.0-1.fc30                       updates         95 k
+ kf5-karchive                      x86_64 5.59.0-1.fc30                       updates        105 k
+ kf5-kauth                         x86_64 5.59.0-1.fc30                       updates        129 k
+ kf5-kbookmarks                    x86_64 5.59.0-1.fc30                       updates        164 k
+ kf5-kcmutils                      x86_64 5.59.0-1.fc30                       updates        294 k
+ kf5-kcodecs                       x86_64 5.59.0-1.fc30                       updates        160 k
+ kf5-kcompletion                   x86_64 5.59.0-1.fc30                       updates        107 k
+ kf5-kconfig-core                  x86_64 5.59.0-1.fc30                       updates        288 k
+ kf5-kconfig-gui                   x86_64 5.59.0-1.fc30                       updates         47 k
+ kf5-kconfigwidgets                x86_64 5.59.0-1.fc30                       updates        376 k
+ kf5-kcoreaddons                   x86_64 5.59.0-1.fc30                       updates        370 k
+ kf5-kcrash                        x86_64 5.59.0-1.fc30                       updates         33 k
+ kf5-kdbusaddons                   x86_64 5.59.0-1.fc30                       updates         67 k
+ kf5-kdeclarative                  x86_64 5.59.0-2.fc30                       updates        254 k
+ kf5-kded                          x86_64 5.59.0-1.fc30                       updates         76 k
+ kf5-kdelibs4support               x86_64 5.59.0-1.fc30                       updates        2.1 M
+ kf5-kdelibs4support-libs          x86_64 5.59.0-1.fc30                       updates        819 k
+ kf5-kdesu                         x86_64 5.59.0-1.fc30                       updates         88 k
+ kf5-kdnssd                        x86_64 5.59.0-1.fc30                       updates        106 k
+ kf5-kdoctools                     x86_64 5.59.0-1.fc30                       updates        613 k
+ kf5-kemoticons                    x86_64 5.59.0-1.fc30                       updates        1.8 M
+ kf5-kfilemetadata                 x86_64 5.59.0-1.fc30                       updates        207 k
+ kf5-kglobalaccel                  x86_64 5.59.0-1.fc30                       updates         56 k
+ kf5-kglobalaccel-libs             x86_64 5.59.0-1.fc30                       updates         96 k
+ kf5-kguiaddons                    x86_64 5.59.0-1.fc30                       updates         58 k
+ kf5-kholidays                     x86_64 1:5.59.0-1.fc30                     updates        232 k
+ kf5-khtml                         x86_64 5.59.0-1.fc30                       updates        2.7 M
+ kf5-ki18n                         x86_64 5.59.0-1.fc30                       updates        2.8 M
+ kf5-kiconthemes                   x86_64 5.59.0-1.fc30                       updates        149 k
+ kf5-kidletime                     x86_64 5.59.0-1.fc30                       updates         49 k
+ kf5-kinit                         x86_64 5.59.0-1.fc30                       updates        164 k
+ kf5-kio-core                      x86_64 5.59.0-1.fc30                       updates        621 k
+ kf5-kio-core-libs                 x86_64 5.59.0-1.fc30                       updates        532 k
+ kf5-kio-doc                       noarch 5.59.0-1.fc30                       updates        2.5 M
+ kf5-kio-file-widgets              x86_64 5.59.0-1.fc30                       updates        279 k
+ kf5-kio-gui                       x86_64 5.59.0-1.fc30                       updates         25 k
+ kf5-kio-ntlm                      x86_64 5.59.0-1.fc30                       updates         20 k
+ kf5-kio-widgets                   x86_64 5.59.0-1.fc30                       updates        248 k
+ kf5-kio-widgets-libs              x86_64 5.59.0-1.fc30                       updates        406 k
+ kf5-kirigami2                     x86_64 5.59.0-1.fc30                       updates        215 k
+ kf5-kitemmodels                   x86_64 5.59.0-1.fc30                       updates        103 k
+ kf5-kitemviews                    x86_64 5.59.0-1.fc30                       updates        114 k
+ kf5-kjobwidgets                   x86_64 5.59.0-1.fc30                       updates        103 k
+ kf5-kjs                           x86_64 5.59.0-1.fc30                       updates        305 k
+ kf5-kjsembed                      x86_64 5.59.0-1.fc30                       updates        421 k
+ kf5-knewstuff                     x86_64 5.59.0-1.fc30                       updates        697 k
+ kf5-knotifications                x86_64 5.59.0-1.fc30                       updates        162 k
+ kf5-knotifyconfig                 x86_64 5.59.0-1.fc30                       updates        106 k
+ kf5-kpackage                      x86_64 5.59.0-1.fc30                       updates        211 k
+ kf5-kparts                        x86_64 5.59.0-1.fc30                       updates        214 k
+ kf5-kpeople                       x86_64 5.59.0-1.fc30                       updates        144 k
+ kf5-kpty                          x86_64 5.59.0-1.fc30                       updates         70 k
+ kf5-krunner                       x86_64 5.59.0-1.fc30                       updates        106 k
+ kf5-kservice                      x86_64 5.59.0-1.fc30                       updates        353 k
+ kf5-ktexteditor                   x86_64 5.59.0-1.fc30                       updates        2.5 M
+ kf5-ktextwidgets                  x86_64 5.59.0-1.fc30                       updates        294 k
+ kf5-kwallet                       x86_64 5.59.0-1.fc30                       updates        362 k
+ kf5-kwallet-libs                  x86_64 5.59.0-1.fc30                       updates        101 k
+ kf5-kwayland                      x86_64 5.59.0-2.fc30                       updates        440 k
+ kf5-kwidgetsaddons                x86_64 5.59.0-1.fc30                       updates        1.5 M
+ kf5-kwindowsystem                 x86_64 5.59.0-1.fc30                       updates        168 k
+ kf5-kxmlgui                       x86_64 5.59.0-2.fc30                       updates        760 k
+ kf5-kxmlrpcclient                 x86_64 5.59.0-1.fc30                       updates         67 k
+ kf5-networkmanager-qt             x86_64 5.59.0-1.fc30                       updates        458 k
+ kf5-plasma                        x86_64 5.59.0-1.fc30                       updates        3.6 M
+ kf5-prison                        x86_64 5.59.0-1.fc30                       updates         36 k
+ kf5-solid                         x86_64 5.59.0-1.fc30                       updates        386 k
+ kf5-sonnet-core                   x86_64 5.59.0-1.fc30                       updates        164 k
+ kf5-sonnet-ui                     x86_64 5.59.0-1.fc30                       updates        152 k
+ kf5-syntax-highlighting           x86_64 5.59.0-1.fc30                       updates        1.4 M
+ kf5-threadweaver                  x86_64 5.59.0-1.fc30                       updates         71 k
+ khotkeys                          x86_64 5.15.5-1.fc30                       updates        2.0 M
+ kio-extras                        x86_64 19.04.2-1.fc30                      updates        1.2 M
+ kmenuedit                         x86_64 5.15.5-1.fc30                       updates        977 k
+ kscreenlocker                     x86_64 5.15.5-1.fc30                       updates        218 k
+ ksysguardd                        x86_64 5.15.5-1.fc30                       updates         67 k
+ kwin                              x86_64 5.15.5-2.fc30                       updates         31 k
+ kwin-common                       x86_64 5.15.5-2.fc30                       updates        2.7 M
+ kwin-libs                         x86_64 5.15.5-2.fc30                       updates        1.5 M
+ kwrited                           x86_64 5.15.5-1.fc30                       updates         31 k
+ libkscreen-qt5                    x86_64 5.15.5-1.fc30                       updates        273 k
+ libksysguard                      x86_64 5.15.5-1.fc30                       updates        687 k
+ libksysguard-common               x86_64 5.15.5-1.fc30                       updates         41 k
+ libkworkspace5                    x86_64 5.15.5-1.fc30                       updates         78 k
+ oxygen-sound-theme                noarch 5.15.5-1.fc30                       updates        1.7 M
+ phonon-qt5                        x86_64 4.10.2-3.fc30                       updates        210 k
+ plasma-breeze                     x86_64 5.15.5-1.fc30                       updates        565 k
+ plasma-breeze-common              noarch 5.15.5-1.fc30                       updates         22 M
+ plasma-integration                x86_64 5.15.5-2.fc30                       updates        151 k
+ plasma-lookandfeel-fedora         noarch 5.15.5-1.fc30                       updates        8.0 M
+ plasma-milou                      x86_64 5.15.5-1.fc30                       updates         92 k
+ plasma-pa                         x86_64 5.15.5-1.fc30                       updates        244 k
+ plasma-systemsettings             x86_64 5.15.5-1.fc30                       updates        358 k
+ plasma-workspace                  x86_64 5.15.5-1.fc30                       updates        5.0 M
+ plasma-workspace-common           x86_64 5.15.5-1.fc30                       updates         30 k
+ plasma-workspace-geolocation-libs x86_64 5.15.5-1.fc30                       updates         28 k
+ plasma-workspace-libs             x86_64 5.15.5-1.fc30                       updates        1.3 M
+ polkit-kde                        x86_64 5.15.5-1.fc30                       updates         80 k
+ poppler-qt5                       x86_64 0.73.0-13.fc30                      updates        180 k
+ powerdevil                        x86_64 5.15.5-1.fc30                       updates        910 k
+ qqc2-desktop-style                x86_64 5.59.0-1.fc30                       updates         89 k
+ qt5-qtscript                      x86_64 5.12.4-1.fc30                       updates        1.0 M
+ qt5-qtspeech                      x86_64 5.12.4-1.fc30                       updates         43 k
+ qt5-qttools                       x86_64 5.12.4-1.fc30                       updates         41 k
+ qt5-qtwebengine                   x86_64 5.12.4-5.fc30                       updates         40 M
+ PackageKit-Qt5                    x86_64 1.0.1-3.fc30                        fedora         102 k
+ appstream                         x86_64 0.12.6-1.fc30                       fedora         280 k
+ appstream-qt                      x86_64 0.12.6-1.fc30                       fedora          62 k
+ dbusmenu-qt5                      x86_64 0.9.3-0.20.20160218.fc30            fedora          95 k
+ docbook-dtds                      noarch 1.0-72.fc30                         fedora         368 k
+ docbook-style-xsl                 noarch 1.79.2-9.fc30                       fedora         1.6 M
+ ebook-tools-libs                  x86_64 0.2.2-14.fc30                       fedora          28 k
+ editorconfig-libs                 x86_64 0.12.3-2.fc30                       fedora          25 k
+ f30-backgrounds-kde               noarch 30.1.2-1.fc30                       fedora          11 k
+ gpsd-libs                         x86_64 3.18.1-2.fc30                       fedora          55 k
+ libXaw                            x86_64 1.0.13-12.fc30                      fedora         184 k
+ libdmtx                           x86_64 0.7.5-3.fc30                        fedora          59 k
+ libqalculate                      x86_64 2.8.2-4.fc30                        fedora         1.6 M
+ libzip                            x86_64 1.5.2-1.fc30                        fedora          54 k
+ lm_sensors-libs                   x86_64 3.5.0-3.fc30                        fedora          41 k
+ polkit-qt5-1                      x86_64 0.112.0-15.fc30                     fedora          73 k
+ re2                               x86_64 20160401-8.fc30                     fedora         170 k
+ sgml-common                       noarch 0.6.3-52.fc30                       fedora          55 k
+ socat                             x86_64 1.7.3.2-9.fc30                      fedora         282 k
+ tk                                x86_64 1:8.6.8-1.fc30                      fedora         1.5 M
+ xcb-util-cursor                   x86_64 0.1.3-8.fc30                        fedora          18 k
+ xorg-x11-apps                     x86_64 7.7-24.fc30                         fedora         305 k
+ xorg-x11-fonts-misc               noarch 7.5-21.fc30                         fedora         5.8 M
+ xorg-x11-xbitmaps                 noarch 1.1.1-16.fc30                       fedora          38 k
+Installing weak dependencies:
+ plasma-browser-integration        x86_64 5.15.5-1.fc30                       updates        133 k
+ plasma-workspace-geolocation      x86_64 5.15.5-1.fc30                       updates         59 k
+ pulseaudio-module-gconf           x86_64 12.2-6.fc30                         updates         22 k
+ qt5-qdbusviewer                   x86_64 5.12.4-1.fc30                       updates         49 k
+ qt5-qtimageformats                x86_64 5.12.4-1.fc30                       updates         88 k
+ qt5-qtspeech-speechd              x86_64 5.12.4-1.fc30                       updates         25 k
+ qt5-qtvirtualkeyboard             x86_64 5.12.4-1.fc30                       updates        2.2 M
+ xdg-desktop-portal-kde            x86_64 5.15.5-3.fc30                       updates        199 k
+ catdoc                            x86_64 0.95-6.fc30                         fedora         108 k
+Enabling module streams:
+ libgit2                                  0.27                                                    
+
+Transaction Summary
+===================================================================================================
+Install  159 Packages
+
+Total download size: 157 M
+Installed size: 547 M
+Is this ok [y/N]:

@@ -4,6 +4,7 @@
 #include <iostream>
 #include <string.h>
 #include "Parser.h"
+#include "DNFParser.h"
 
 #define NUM_ARGS 3
 #define PM_INDEX 1
