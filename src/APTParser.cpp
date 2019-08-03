@@ -1,13 +1,13 @@
 #include "APTParser.h"
 
 void APTParser::parseAndWrite() {
-    while (std::getline(*(fH->getInFile()), ln)) {
+    while (GET_INPUT_LINE) {
         // Get to the list of newly installed packages
         if (ln.find("following NEW") != std::string::npos) {
             break;
         }
 
-        while (std::getline(*(fH->getInFile()), ln)) {
+        while (GET_INPUT_LINE) {
             if (fH->getInFile()->eof()) {
                 break;
             }
@@ -25,4 +25,7 @@ void APTParser::parseAndWrite() {
             fH->getOutFile()->write(ln.c_str(), ln.length());
         }
     }
+
+    // Write out a newline at the end of the file
+    fH->getOutFile()->write("\n", 1);
 }

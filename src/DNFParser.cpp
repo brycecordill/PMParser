@@ -2,13 +2,13 @@
 
 void DNFParser::parseAndWrite() {
     // Get to the package list
-    while (std::getline(*(fH->getInFile()), ln)) {
+    while (GET_INPUT_LINE) {
         if (ln.find("Installing") != std::string::npos) {
             break;
         }
     }
 
-    while (std::getline(*(fH->getInFile()), ln)) {
+    while (GET_INPUT_LINE) {
         if (fH->getInFile()->eof()) {
             break;
         }
@@ -28,4 +28,7 @@ void DNFParser::parseAndWrite() {
         // Write the resulting string
         fH->getOutFile()->write(ln.c_str(), ln.length());
     }
+
+    // Write out a newline at the end of the file
+    fH->getOutFile()->write("\n", 1);
 }

@@ -4,6 +4,8 @@
 #include <fstream>
 #include "FileHandler.h"
 
+#define GET_INPUT_LINE std::getline(*(fH->getInFile()), ln)
+
 
 /* To implement later */
 class Parser {
