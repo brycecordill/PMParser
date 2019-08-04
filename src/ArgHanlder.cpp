@@ -2,7 +2,7 @@
 
 void ArgHandler::printUsage() {
     std::cout << "Usage: pmparser [PACKAGE_MANAGER] [FILE]\n\n";
-    std::cout << "Valid package managers: dnf\n";
+    std::cout << "Valid package managers: apt, dnf\n";
     exit(EXIT_FAILURE);
 }
 
