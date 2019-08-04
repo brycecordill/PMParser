@@ -5,7 +5,7 @@ A program that takes the output from Linux package managers and parses them so t
 First, clone the repo: 
 ```$ git clone https://github.com/brycecordill/PMParser.git```
 
-Next, cd into the ```src/`` directory and compile the project:
+Next, cd into the ```src/``` directory and compile the project:
 ```$ cd PMParser/src/ && make```
 
 Future versions will support the ```make install``` command
