@@ -1,6 +1,8 @@
 # PMParser
 A program that takes the output from Linux package managers and parses them so they are all on one line.  This is useful when installing a large package group (like a desktop enviornment) and you want to make sure that you can easily remove all newly installed packages later.
 
+All you need to do is copy or pipe the output of a package manager's install command into a file, run this program with the file, and then copy and paste the contents of the ```.parsed``` file into the package manager's remove command.
+
 # Compiling
 First, clone the repo: 
 ```$ git clone https://github.com/brycecordill/PMParser.git```
