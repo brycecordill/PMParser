@@ -3,6 +3,9 @@ A program that takes the output from Linux package managers and parses them so t
 
 All you need to do is copy or pipe the output of a package manager's install command into a file, run this program with the file, and then copy and paste the contents of the ```.parsed``` file into the package manager's remove command to remove the packages.
 
+# Dependencies
+In order to compile this program, you'll need the c++ compiler ```g++```, which can be found in your Linux distro's repository.
+
 # Compiling
 First, clone the repo: 
 ```
