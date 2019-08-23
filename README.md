@@ -17,7 +17,16 @@ Next, cd into the ```src/``` directory and compile the project:
 $ cd PMParser/src/ && make
 ```
 
-Future versions will support the ```make install``` command
+# Installing/Uninstalling
+If you'd like to install the program system-wide, simply run the command
+```
+sudo make install
+```
+If you'd like to uninstall this program, run
+```
+sudo make uninstall
+```
+in the ```src/``` directory
 
 # Usage
 To run the program, make sure you are still in the ```src/``` directory.  You can then run the program to make sure everything is ready:
