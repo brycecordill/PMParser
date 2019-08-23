@@ -29,15 +29,15 @@ sudo make uninstall
 in the ```src/``` directory
 
 # Usage
-To run the program, make sure you are still in the ```src/``` directory.  You can then run the program to make sure everything is ready:
+After installing, you can then run the program to make sure everything was configured correctly:
 ```
-$ ./pmparser
+$ pmparser
 ```
 This should print a usage/help message on screen.
 
 To parse a file, use this pattern:
 ```
-$ ./pmparser PACKAGE_MANAGER PATH_TO_FILE
+$ pmparser PACKAGE_MANAGER PATH_TO_FILE
 ```
 
 The output will be saved in the same directory as the input file, but with a ```.parsed``` extension.  Sample input and output files are located in the ```samples/``` directory.
