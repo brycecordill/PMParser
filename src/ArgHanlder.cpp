@@ -1,8 +1,8 @@
 #include "ArgHandler.h"
 
 void ArgHandler::printUsage() {
-    std::cout << "Usage: pmparser [PACKAGE_MANAGER] [FILE]\n\n";
-    std::cout << "Valid package managers: apt, dnf\n";
+    std::cerr << "Usage: pmparser [PACKAGE_MANAGER] [FILE]\n\n";
+    std::cerr << "Valid package managers: apt, dnf\n";
     exit(EXIT_FAILURE);
 }
 
@@ -18,7 +18,6 @@ Parser *ArgHandler::handle(int argc, char **argv) {
     return p;
 }
 
-// TODO Implement with correct subtypes
 Parser *ArgHandler::tryPM(char *pm) {
     if (strcmp(pm, "dnf") == 0 || strcmp(pm, "yum") == 0) {
         return new DNFParser;

@@ -4,7 +4,7 @@ FileHandler::FileHandler(char *fname) {
     input = new std::fstream(fname, std::ios::in);
 
     if (input->bad() || input->fail()) {
-        std::cout << "Failed to open " << fname << "\n";
+        std::cerr << "Failed to open " << fname << "\n";
         input = NULL;
         output = NULL;
         exit(EXIT_FAILURE);
@@ -16,7 +16,7 @@ FileHandler::FileHandler(char *fname) {
     output = new std::fstream(outName, std::ios::out);
 
     if (output->bad() || output->fail()) {
-        std::cout << "Failed to create or open " << outName << "\n";
+        std::cerr << "Failed to create or open " << outName << "\n";
         output = NULL;
         exit(EXIT_FAILURE);
     }
