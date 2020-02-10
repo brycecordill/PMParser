@@ -6,7 +6,7 @@ All you need to do is copy or pipe the output of a package manager's install com
 # Dependencies
 In order to compile this program, you'll need the c++ compiler ```g++``` and ```make```, which can be found in your Linux distro's repository.
 
-# Compiling
+# Compiling Without Installing
 First, clone the repo: 
 ```
 $ git clone https://github.com/brycecordill/PMParser.git
@@ -18,15 +18,15 @@ $ cd PMParser/src/ && make
 ```
 
 # Installing/Uninstalling
+First, clone the repo as shown above.
 If you'd like to install the program system-wide, simply run the command
 ```
-sudo make install
+./install.sh
 ```
 If you'd like to uninstall this program, run
 ```
-sudo make uninstall
+./uninstall.sh
 ```
-in the ```src/``` directory
 
 # Usage
 After installing, you can then run the program to make sure everything was configured correctly:
