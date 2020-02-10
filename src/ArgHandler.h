@@ -6,6 +6,7 @@
 #include "Parser.h"
 #include "DNFParser.h"
 #include "APTParser.h"
+#include "ZypperParser.h"
 
 #define NUM_ARGS 3
 #define PM_INDEX 1
