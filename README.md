@@ -18,11 +18,17 @@ $ cd PMParser/src/ && make
 ```
 
 # Installing/Uninstalling
-First, clone the repo as shown above.
+First, clone the repo and enter its directory:
+```
+$ git clone https://github.com/brycecordill/PMParser.git
+$ cd PMParser/
+```
+
 If you'd like to install the program system-wide, simply run the command
 ```
 ./install.sh
 ```
+
 If you'd like to uninstall this program, run
 ```
 ./uninstall.sh
