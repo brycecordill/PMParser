@@ -7,6 +7,7 @@
 #include "DNFParser.h"
 #include "APTParser.h"
 #include "ZypperParser.h"
+#include "PacmanParser.h"
 
 #define NUM_ARGS 3
 #define PM_INDEX 1

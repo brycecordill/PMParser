@@ -1,0 +1,119 @@
+:: There are 67 members in group gnome:
+:: Repository extra
+   1) baobab  2) cheese  3) eog  4) epiphany  5) evince  6) file-roller  7) gdm
+   8) gedit  9) gnome-backgrounds  10) gnome-books  11) gnome-calculator
+   12) gnome-calendar  13) gnome-characters  14) gnome-clocks
+   15) gnome-color-manager  16) gnome-contacts  17) gnome-control-center
+   18) gnome-dictionary  19) gnome-disk-utility  20) gnome-documents
+   21) gnome-font-viewer  22) gnome-getting-started-docs  23) gnome-keyring
+   24) gnome-logs  25) gnome-maps  26) gnome-menus  27) gnome-music
+   28) gnome-photos  29) gnome-remote-desktop  30) gnome-screenshot
+   31) gnome-session  32) gnome-settings-daemon  33) gnome-shell
+   34) gnome-shell-extensions  35) gnome-system-monitor  36) gnome-terminal
+   37) gnome-themes-extra  38) gnome-todo  39) gnome-user-docs
+   40) gnome-user-share  41) gnome-video-effects  42) gnome-weather
+   43) grilo-plugins  44) gvfs  45) gvfs-afc  46) gvfs-goa  47) gvfs-google
+   48) gvfs-gphoto2  49) gvfs-mtp  50) gvfs-nfs  51) gvfs-smb  52) mousetweaks
+   53) mutter  54) nautilus  55) networkmanager  56) orca  57) rygel  58) sushi
+   59) totem  60) tracker  61) tracker-miners  62) vino  63) xdg-user-dirs-gtk
+   64) yelp
+:: Repository community
+   65) gnome-boxes  66) gnome-software  67) simple-scan
+
+Enter a selection (default=all): 
+warning: file-roller-3.32.1-1 is up to date -- reinstalling
+warning: gnome-keyring-1:3.31.91-1 is up to date -- reinstalling
+warning: gnome-menus-3.32.0-1 is up to date -- reinstalling
+warning: gnome-themes-extra-3.28-1 is up to date -- reinstalling
+warning: gvfs-1.40.2-1 is up to date -- reinstalling
+warning: gvfs-afc-1.40.2-1 is up to date -- reinstalling
+warning: gvfs-gphoto2-1.40.2-1 is up to date -- reinstalling
+warning: gvfs-mtp-1.40.2-1 is up to date -- reinstalling
+warning: gvfs-nfs-1.40.2-1 is up to date -- reinstalling
+warning: gvfs-smb-1.40.2-1 is up to date -- reinstalling
+warning: networkmanager-1.20.0-1 is up to date -- reinstalling
+warning: yelp-3.32.2-1 is up to date -- reinstalling
+resolving dependencies...
+looking for conflicting packages...
+
+Packages (185) apache-2.4.39-1  augeas-1.12.0-1  bolt-0.8-2  brltty-6.0-2
+               cdrtools-3.02a09-1  celt0.5.1-0.5.1.3-4  ceph-libs-13.2.1-3
+               clutter-1.26.2-2  clutter-gst-3.0.27-1  clutter-gtk-1.8.4-1
+               cogl-1.22.4-1  colord-gtk-0.2.0-1  colord-sane-1.4.4-2
+               djvulibre-3.5.27-4  dleyna-connector-dbus-0.3.0-2
+               dleyna-core-0.6.0-2  dleyna-renderer-0.6.0-3
+               dleyna-server-0.6.0-2  dotconf-1.3-5
+               evolution-data-server-3.32.4-1  exempi-2.5.0-1  folks-0.12.1-1
+               freerdp-1:2.0.0_rc4-7  frei0r-plugins-1.6.1-7  gavl-1.4.0-3
+               gfbgraph-0.2.3+10+gbc03c1f-2  gjs-2:1.56.2-1  glusterfs-1:6.5-1
+               gmime3-3.2.3-3  gnome-autoar-0.2.3+1+g7347380-1
+               gnome-bluetooth-3.32.1-1  gnome-desktop-1:3.32.2-1
+               gnome-epub-thumbnailer-1.5-1  gnome-online-accounts-3.32.0-1
+               gnome-online-miners-3.30.0+3+g8f891d9-1  gom-0.3.3-2
+               gperftools-2.7-1  grilo-0.3.9-1  gsound-1.0.2-4  gspell-1.8.1-1
+               gtk-vnc-1.0.0-1  gtksourceview4-4.2.0-1
+               gupnp-av-0.12.11+2+gb5ca07c-1  gupnp-dlna-0.10.5+4+gc947eed-1
+               jemalloc-1:5.2.1-1  leveldb-1.22-1  libao-1.2.2-2
+               libcacard-2.6.1-1  libchamplain-0.12.19-1  libcue-2.2.1-1
+               libdazzle-3.32.3-1  libdmapsharing-2.9.39-2  libgdata-0.17.10-1
+               libgdm-3.32.0+2+g820f90f5-1  libgee-0.20.2-1  libgepub-0.6-1
+               libgnomekbd-3.26.1-1  libgovirt-0.3.6-1
+               libgrss-0.7.0+16+g971c421-2  libgssglue-0.4-3  libgtop-2.40.0-1
+               libgweather-3.32.2-1  libgxps-0.3.1-1  libhandy-0.0.10-1
+               libieee1284-0.2.11-7  libiptcdata-1.0.4-4  libiscsi-1.18.0-1
+               libmediaart-1.9.4+1+ga704d0b-1  libmusicbrainz5-5.1.0-3
+               libnautilus-extension-3.32.3-1  liboauth-1.0.3+14+g186fb14-1
+               libosinfo-1.5.0-1  libpackagekit-glib-1.1.12-1  libpeas-1.22.0-3
+               libphonenumber-8.10.15-1  libpwquality-1.4.0-2  libquvi-0.9.4-5
+               libquvi-scripts-0.9.20131130-4  libspectre-0.2.8-2
+               libspeechd-0.9.1-1  liburcu-0.11.0-1  libvirt-5.5.0-1
+               libvirt-glib-2.0.0-1  libvncserver-0.9.12-1  libxmlb-0.1.11-1
+               libzapojit-0.0.3+11+g840627d-3  lua52-5.2.4-4
+               lua52-bitop-1.0.2-8  lua52-expat-1.3.0-4  lua52-lpeg-1.0.2-1
+               lua52-luajson-1.3.4-2  lua52-socket-20190219-1  mbedtls-2.16.0-1
+               mod_dnssd-0.6-7  mtools-4.0.23-1
+               nautilus-sendto-3.8.6+14+ge8a3604-1  netcf-0.2.8-7
+               numactl-2.0.12-3  oath-toolkit-2.6.2-6  osinfo-db-20190611-1
+               phodav-2.3-1  python-atspi-2.32.1-1  qemu-4.0.0-3  sane-1.0.27-2
+               seabios-1.12.0-1  shared-color-targets-0.1.7-2
+               speech-dispatcher-0.9.1-1  spice-0.14.2-1  spice-gtk-0.37-1
+               t1lib-5.1.2-7  telepathy-glib-0.24.1-2  totem-plparser-3.26.3-1
+               usbredir-0.8.0-1  vde2-2.3.2-11  virglrenderer-0.7.0-1
+               xorg-server-xwayland-1.20.5-2  xorg-xhost-1.0.8-1  yajl-2.1.0-2
+               baobab-3.32.0-1  cheese-3.32.1-2  eog-3.32.2-1
+               epiphany-3.32.4-1  evince-3.32.0+26+gd3aecce7-2
+               file-roller-3.32.1-1  gdm-3.32.0+2+g820f90f5-1  gedit-3.32.2-2
+               gnome-backgrounds-3.32.0-1  gnome-books-3.32.0-1
+               gnome-boxes-3.32.1-1  gnome-calculator-3.32.1-1
+               gnome-calendar-3.32.2-2  gnome-characters-3.32.1-1
+               gnome-clocks-3.32.0-2  gnome-color-manager-3.32.0-2
+               gnome-contacts-3.32.1-1  gnome-control-center-3.32.2-1
+               gnome-dictionary-3.26.1-1  gnome-disk-utility-3.32.1-1
+               gnome-documents-3.32.0-1  gnome-font-viewer-3.32.0-1
+               gnome-getting-started-docs-3.32.2-1  gnome-keyring-1:3.31.91-1
+               gnome-logs-3.32.1-1  gnome-maps-3.32.2.1-1  gnome-menus-3.32.0-1
+               gnome-music-1:3.32.2-1  gnome-photos-3.32.0-1
+               gnome-remote-desktop-0.1.7-1  gnome-screenshot-3.32.0-1
+               gnome-session-3.32.0-1  gnome-settings-daemon-3.32.1-1
+               gnome-shell-1:3.32.2+11+g1c6abf378-1
+               gnome-shell-extensions-3.32.1-1  gnome-software-3.32.4-1
+               gnome-system-monitor-3.32.1-1  gnome-terminal-3.32.2-1
+               gnome-themes-extra-3.28-1  gnome-todo-3.28.1+17+gb2ffd8f-1
+               gnome-user-docs-3.32.3-1  gnome-user-share-3.32.0.1-1
+               gnome-video-effects-0.5.0-1  gnome-weather-3.32.2-1
+               grilo-plugins-0.3.9-1  gvfs-1.40.2-1  gvfs-afc-1.40.2-1
+               gvfs-goa-1.40.2-1  gvfs-google-1.40.2-1  gvfs-gphoto2-1.40.2-1
+               gvfs-mtp-1.40.2-1  gvfs-nfs-1.40.2-1  gvfs-smb-1.40.2-1
+               mousetweaks-3.32.0-1  mutter-3.32.2+43+gb7f158811-1
+               nautilus-3.32.3-1  networkmanager-1.20.0-1  orca-3.32.0-1
+               rygel-0.38.1-1  simple-scan-3.32.2.1-1  sushi-3.32.1-1
+               totem-3.32.1-1  tracker-2.2.2-1  tracker-miners-2.2.2-1
+               vino-3.22.0+60+gd29a4f2-1  xdg-user-dirs-gtk-0.10+9+g5b7efc6-2
+               yelp-3.32.2-1
+
+Total Download Size:   178.02 MiB
+Total Installed Size:  848.62 MiB
+Net Upgrade Size:      812.11 MiB
+
+:: Proceed with installation? [Y/n] 
+

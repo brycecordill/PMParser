@@ -2,7 +2,7 @@
 
 void ArgHandler::printUsage() {
     std::cerr << "Usage: pmparser [PACKAGE_MANAGER] [FILE]\n\n";
-    std::cerr << "Valid package managers: apt, dnf, zypper\n";
+    std::cerr << "Valid package managers: apt, dnf, zypper, pacman\n";
     exit(EXIT_FAILURE);
 }
 
@@ -27,6 +27,9 @@ Parser *ArgHandler::tryPM(char *pm) {
     }
     else if (strcmp(pm, "zypper") == 0) {
         return new ZypperParser;
+    }
+    else if (strcmp(pm, "pacman") == 0) {
+        return new PacmanParser;
     }
 
     printUsage();
